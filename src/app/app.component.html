@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="columns is-centered">
+  <div id="box-wrap" class="columns is-centered has-background-light">
     <div class="box column is-one-third">
       <h1 class="title has-text-centered">Password Generator</h1>
 
@@ -35,7 +35,7 @@
         </div>
       </div>
 
-      <button 
+      <button
         [disabled]="!(length && (includeLetters || includeSymbols || includeNumbers))"
         (click)="onButtonClick()" class="button is-link is-fullwidth">
         Generate!

@@ -2,7 +2,7 @@
 @import 'bulma/css/bulma.css';
 html,
 body,
-.container,
+.main-wrapper,
 #box-wrap {
   height: 100%;
 }
